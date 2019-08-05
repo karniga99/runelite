@@ -594,6 +594,11 @@ public class MenuEntrySwapperPlugin extends Plugin
 		{
 			swap("use", option, target, true);
 		}
+		else if (config.swapHides() && option.equals("tan 1"))
+                {
+	                swap("tan all", option, target, false);
+                }
+
 	}
 
 	@Subscribe
