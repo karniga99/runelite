@@ -291,6 +291,17 @@ public interface MenuEntrySwapperConfig extends Config
 	{
 		return true;
 	}
+	
+	@ConfigItem(
+	        keyName = "swapHides",
+	        name = "Tan All",
+	        description = "Swap Tan i with Tan All for easy left click hide tanning"
+        )
+        default boolean swapHides()
+        {
+	        return true;
+        }
+
 
 	@ConfigItem(
 		keyName = "swapEnchant",
