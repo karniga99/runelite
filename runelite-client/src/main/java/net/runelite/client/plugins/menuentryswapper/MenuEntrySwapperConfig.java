@@ -302,8 +302,7 @@ public interface MenuEntrySwapperConfig extends Config
 	        return true;
         }
 
-
-	@ConfigItem(
+        @ConfigItem(
 		keyName = "swapEnchant",
 		name = "Enchant",
 		description = "Swap Talk-to with Enchant for Eluned"
